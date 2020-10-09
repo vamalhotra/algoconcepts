@@ -22,7 +22,7 @@ title: Algoconcepts
 email: emailvivek28@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Programming concepts, algorithms, tips
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/algoconcepts" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: vamalhotra
 #github_username:  vamalhotra
@@ -59,4 +59,4 @@ exclude:
 #default structure
 #permalink: /:categories/:year/:month/:day/:title
 #permalink: /:year/:month/:title
-permalink: /algoconcepts/:title
+permalink: /:title
