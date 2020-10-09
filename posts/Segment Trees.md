@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Segment Trees
 
 Segment Tree is a very useful data structure to work efficiently with range queries over a n-dimension array. It can be used to answer sum of a given range and update element in the range in O(log N) time. 

@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Dependency Injection
 
 Dependency injection is a design pattern that helps achieve Dependency inversion SOLID design principle. To recap, Dependency inversion principle states that all high level and low level components should depend on abstractions and not on implementation. Also, Dependency inversion principle states that we should program to an interface and not to an implementation. As a result of this advice, our code depends on lot of different interface.

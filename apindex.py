@@ -48,7 +48,7 @@ class ResourceManager:
 
     @staticmethod
     def getFile(fileName):
-        return PREFIX + "/share/apindex/" + fileName
+        return PREFIX + "/apindex_share/" + fileName
 
     @staticmethod
     def readFile(fileName):
@@ -142,7 +142,7 @@ class File:
     def getChildren(self):
         children = []
         for file in os.listdir(self.filename):
-           if file.startswith('.') or file.startswith('_'):
+           if file.startswith('.') or file.startswith('_') and not file.startswith('_site'):
                continue;
            children.append(File(file, self.getPath()))
         return children
@@ -156,7 +156,7 @@ class IndexWriter:
         .replace("#VERSION", VERSION)
 
     @staticmethod
-    def writeIndex(startPath, title = None, footer=None):
+    def writeIndex(startPath, title = None, footer=None, recursive=True):
         filesRead = []
         dirsRead = []
         root = File(startPath)
@@ -173,16 +173,17 @@ class IndexWriter:
         # add the back dir
         dirsRead.append(File("..").toHTML())
 
-        for file in root.getChildren():
-            # we do not want to index the index itself
-            if file.getFileName() == "index.html":
-                continue
+        if recursive:
+            for file in root.getChildren():
+                # we do not want to index the index itself
+                if file.getFileName() == "index.html":
+                    continue
 
-            if file.isDir():
-                dirsRead.append(file.toHTML())
-                IndexWriter.writeIndex(file.getPath(), title)
-            else:
-                filesRead.append(file.toHTML())
+                if file.isDir():
+                    dirsRead.append(file.toHTML())
+                    IndexWriter.writeIndex(file.getPath(), title)
+                else:
+                    filesRead.append(file.toHTML())
 
         # fill in the file list
         dirsRead.sort()
@@ -199,7 +200,7 @@ def main():
         print("No root directory specified!")
         exit(1)
 
-    IndexWriter.writeIndex(sys.argv[1])
+    IndexWriter.writeIndex(sys.argv[1], recursive=True)
 
 if __name__=="__main__":
     main()

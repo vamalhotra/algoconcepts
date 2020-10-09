@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Multi dimensional arrays in C# (Jagged vs rectangular arrays)
 
 CSharp (C#, Chash) provides two ways to declare multi-dimensional array

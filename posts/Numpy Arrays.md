@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Numpy Arrays
 
 Arrays in numpy are called as ndarray, n-dim array.

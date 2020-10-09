@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Design Patterns for Software Design
 
 When God created this world, first he created us - you and me. Then he established relationship between us so that some became our teacher, some our siblings, some our friends etc. Finally, HE put us to work according to our relationships i.e. teacher passed knowledge to us, we processed that knowledge and passed it out friends and siblings etc.

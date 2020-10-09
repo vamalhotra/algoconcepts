@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Delegate in C#
 
 Delegates in C# are similar to function pointer in C++. A function pointer can hold reference to a function and can be invoked with arguments, if any, just like a function.

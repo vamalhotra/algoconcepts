@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Must Know Algorithms
 
 Everything here:  https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/ 

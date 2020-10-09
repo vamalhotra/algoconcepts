@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Using CMake to generate Visual studio project in windows
 
 A project using cmake will come with CMakeLists.txt script. This script defines targets where each target represents an executable or library or some other output for the build pipeline. On windows, we can use CMakeLists.txt to generate sln/vcproj files which can then be opened in visual studio and compiled/debugged in regular manner.

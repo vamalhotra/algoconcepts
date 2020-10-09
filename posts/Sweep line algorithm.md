@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Sweep line algorithm
 
 The idea behind this algorithm is to imagine a line sweeping across the plane, from one end to another, and operations are limited to objects which intersect or are in vicinity of where the line stops. The complete solution is available when the line has passed over all objects.

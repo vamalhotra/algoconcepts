@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Amazon Leadership Principles
 
 Amazon may not have the best of reputation about its policies, its treatment of workers, employees and it might be doing lot of things (like competing unfairly against small traders selling on its platform) but there's no denying fact that the company has risen from ground-up to a mammoth corporation and just luck can only take you so far, you need to get lot of other things right to be such a success. Today, we will look into some of the fundamentals of Amazon's success that it strives to live by and I hope all of us will find something of great value in these fundamental principles. 

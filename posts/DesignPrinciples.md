@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Whenever you move to design stage of software project, you need to design high level and low level diagrams of the system. In order to determine the components in that system, it's almost necessary that you have knowledge of these principles so as to create a system that is "maintainable", "scalable" and "extensible".  You should write code in a way that follows these principles. 
 
 [TOC]

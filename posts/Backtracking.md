@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Backtracking
 
 This structure might apply to many other backtracking questions, but here I am just going to demonstrate Subsets, Permutations, and Combination Sum.

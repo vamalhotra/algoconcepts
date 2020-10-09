@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Multiple loop vs single loop
 
 Do you often find yourself writing code like this

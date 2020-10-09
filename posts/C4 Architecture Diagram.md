@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # C4 Architecture Diagram
 
 Often you need to communicate with different partners about the project you're working on. These partners could be from technical background or non-technical background and can be interested in different views of the project architecture. C4 architecture diagrams proposes system diagram at four different zoom level.

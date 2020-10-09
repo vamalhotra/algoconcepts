@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Subarray SUM
 
 [TOC]

@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Greedy algorithms
 
 Greedy algorithms is a technique to make optimal choice at each step such that final solution is also optimal.

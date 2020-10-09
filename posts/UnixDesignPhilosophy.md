@@ -1,3 +1,6 @@
+---
+layout: post
+---
 **Rule of Modularity**: Write simple parts connected by clean interfaces.
 
 **Rule of Composition**: Design programs to be connected to other programs

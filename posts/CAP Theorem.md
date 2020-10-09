@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # CAP Theorem
 
 CAP theorem states that no distributed storage system can guarantee (high) **C**onsistency, (high) **A**vailability and (low) **L**atency. where's P? **P** is partition tolerance which impacts latency in serving request when either partition goes down or data partitioning is needed to handle increased size. 

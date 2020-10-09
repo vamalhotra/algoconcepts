@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Dynamic Programming
 
  https://leetcode.com/problems/target-sum/discuss/455024/dp-is-easy-5-steps-to-think-through-dp-questions/424058 
