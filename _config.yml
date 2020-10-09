@@ -51,6 +51,7 @@ exclude:
    - apindex_share
    - apindex.py
    - _backup/
+   - csutils/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

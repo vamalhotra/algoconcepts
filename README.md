@@ -14,11 +14,11 @@ Run `jekyll new` to initialize a new site. Edit _config.yml, follow naming conve
 
 Three part tutorial:
 
-https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04
+[Part 1](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04)
 
-https://www.digitalocean.com/community/tutorials/exploring-jekyll-s-default-content
+[Part 2](https://www.digitalocean.com/community/tutorials/exploring-jekyll-s-default-content)
 
-https://www.digitalocean.com/community/tutorials/how-to-control-urls-and-links-in-jekyll
+[Part 3](https://www.digitalocean.com/community/tutorials/how-to-control-urls-and-links-in-jekyll)
 
 ## How to generate index.html [Deprecated]
 
