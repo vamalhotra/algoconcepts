@@ -8,13 +8,23 @@ There are multiple ways to convert content written in markdown to html
 
 3) Github [REST API](https://docs.github.com/en/free-pro-team@latest/rest/reference/markdown) to convert markdown to html. 
 
-If you have large no. of markdown files, you can use jekyll to convert all of them to html. You need to create _config.yml, _layouts folder and md files. Run `jekyll serve` to compile all md files to html files and start local server or `jekyll build` to just compile the md files to html.  
+If you have large no. of markdown files, you can use jekyll to convert all of them to html. 
 
-## How to generate index.html
+Run `jekyll new` to initialize a new site. Edit _config.yml, follow naming convention and you're good to go.  Run `jekyll serve` to compile all md files to html files and start local server or `jekyll build` to just compile the md files to html.  Refer to 'permalink' in config.yml on site structure.
+
+Three part tutorial:
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jekyll-development-site-on-ubuntu-16-04
+
+https://www.digitalocean.com/community/tutorials/exploring-jekyll-s-default-content
+
+https://www.digitalocean.com/community/tutorials/how-to-control-urls-and-links-in-jekyll
+
+## How to generate index.html [Deprecated]
 
 Currently, we do not have any navigational layout which can allow to navigate between multiple pages. We are currently using [apindex](https://github.com/libthinkpad/apindex) to generate index page for each directory. 
 
-To run apindex, we need "apindex_share" directory which defines template and images and apindex.py which contains code to generate index.html. 
+To run apindex, we need "apindex_share" directory which defines template and images and apindex.py which contains code to generate index.html. Both the directory and code file have been copied into this repo and modified slightly (share/apindex -> apindex_share and . directory exclusion as below)
 
 Run `apindex.py .` to generate index.html for all directories except directories starting with `.` or `_` except `_site`. Refer `def getChildren(self):` in apindex.py for which directories to exclude
 
