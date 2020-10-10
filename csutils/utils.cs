@@ -181,7 +181,7 @@ static Dictionary<string, Dictionary<string, int>> GenerateIndex(string rootDir 
 
 static void Main(string[] args)
 {
-	var dir = @"C:\Users\vimalhot\source\repos\algoconcepts\_posts";
+	var dir = @"C:\Users\*\source\repos\algoconcepts\_posts";
 	//PutYAMLFrontMatter(dir);
 	//RenameFiles(dir);
 	var index = GenerateIndex(dir);
